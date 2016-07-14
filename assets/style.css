@@ -1,6 +1,13 @@
+body {
+	background-color: #ebf5ff;
+}
+
 img {
 	max-width: 750px;
 	max-height: 500px;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
 }
 
 #media {
@@ -19,11 +26,13 @@ img {
 	width: 150px;
 	height: 100px;
 	font-size: 72px;
+	color: #2a334f;
 }
 
 #title {
 	text-align: center;
 	font-size: 64px;
 	font-weight: 500;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
+	color: #2a334f;
 }
