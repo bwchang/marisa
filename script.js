@@ -14,5 +14,5 @@ $(document).ready(function(){
 		}
 		document.getElementById("imageid").src= imgName ;
 	});
-
+	
 });
